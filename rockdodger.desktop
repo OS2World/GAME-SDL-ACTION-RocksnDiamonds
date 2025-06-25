@@ -1,0 +1,13 @@
+[Desktop Entry]
+
+Categories=Game;ArcadeGame;
+Comment=Addictive rock-dodging greeblie-killing platform game
+Exec=rockdodger
+GenericName=Addictive rock-dodging greeblie-killing platform game
+Icon=rockdodger
+Name=Rock Dodger
+StartupNotify=false
+Terminal=false
+Type=Application
+Version=1.0
+

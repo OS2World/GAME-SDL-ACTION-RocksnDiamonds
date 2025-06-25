@@ -1,0 +1,88 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.TH ROCKDODGER 6 "May 29, 2017"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+rockdodger \- dodge and blow up rocks with your spaceship
+.SH SYNOPSIS
+.B rockdodger
+.RI [ options ]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B rockdodger game.
+.PP
+Use the space key to start a new game.  You have to dodge the rocks that come
+flying in from the right.  By shooting at them with your laser you can heat
+them until they explode.  The shield makes you invincible while you keep it
+activated.  Both shield and laser have a limited power supply which recharges
+only slowly.
+.SS Keyboard Controls
+.TP
+.B Cursor keys
+Move spaceship in the given direction.
+.TP
+.B F1
+Setup screen.
+.TP
+.B d
+Fire laser.
+.TP
+.B s
+Activate shields.
+.TP
+.B p
+Pause/unpause game.
+.TP
+.B Esc
+Quit game.
+
+.SH GURU MEDITATION (Errors)
+Error messages (aka software failures) are usually reported by a so
+called "guru meditation". The guru meditation will be displayed in the
+top of the screen in a blinking border. If this happens please send in
+a bug report and provide the colour of the border (red, yellow, green,
+blue) and the two hex numbers after the hash ('#'). This will help
+greatly in locating the failure.
+
+.SH OPTIONS
+.TP
+.B \-h
+Show summary of options.
+.TP
+.B \-f
+Run in full screen mode (default).
+.TP
+.B \-w
+Run in window mode.
+.TP
+.B \-x 
+Provide the width of the rockdodger screen.
+.TP
+.B \-y
+Provide the height of the rockdodger screen.
+.TP
+.B \-k
+Use keyboard only, disable joystick.
+.TP
+.B \-s
+Run in silent mode (no sound).
+.TP
+.B \-I
+Please show me always the intro.
+.TP
+.B \-P
+Provide a rockdodger parameter file. Certain aspects of the game may
+be changed using this parameter file. This is an IFF FORM ROCK file.
+.SH AUTHOR
+This manual page was written by Andreas Bombe <aeb@debian.org> and RPK,
+for the Debian GNU/Linux system (but may be used by others).

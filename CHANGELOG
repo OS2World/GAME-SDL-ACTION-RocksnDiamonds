@@ -1,0 +1,41 @@
+rockdodger 1.1.4
+	* Fixed compiler issue with GCC-10.
+	* Fix header files.
+
+rockdodger 1.1.3
+	* Improved Makefile.
+	* Fixed compilation issues with GCC8.
+	* A 64 * 64 icon was added.
+
+rockdodger 1.1.2
+	* Use PNG instead of ILBM for some graphics.
+
+rockdodger 1.1.1
+	* Compiledate can be overridden.
+	* Coderefactoring of major parts.
+	* Pause function introduced.
+
+rockdodger 1.1.0
+	* Improved handling of on-disk storage of highscores.
+	* Greeblie debug output.
+	* Guru Meditations are mentioned in the manpage.
+	* Plume exhaust bug fixed (Yeah! This warrant a new minor version!).
+	* Ship_struct introduced.
+
+rockdodger 1.0.3
+	* Fixed issue with clang.
+	* Streamlined the intro.
+	* README is now README.md
+	* Read data directory from other location.
+
+rockdodger 1.0.2
+	* New parameter file
+	* Changed the homepage entry.
+	* Text for high-score scroller was added.
+	* Some smaller bug fixes.
+
+rockdodger 1.0.1
+	* Hosting moved to bitbucket.
+	* Pressing Escape in game will stop the current game and not
+	quit the game altogether.
+	* Fixed some minor bugs.
